@@ -5,7 +5,7 @@
     <div class="container">
 
         <ul class="nav nav-pills top-menu">
-            <li role="presentation" class="btn-default"><a href="{{ url('contact/search') }}" class="btn btn-default">{{ trans('contact.list') }}</a></li>
+            <li role="presentation" class="btn-default"><a href="{{ url('contact') }}" class="btn btn-default">{{ trans('contact.list') }}</a></li>
         </ul>
         <div class="panel panel-default">
             <div class="panel-heading">{{ trans('contact.new') }}</div>
