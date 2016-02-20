@@ -30,8 +30,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Instalação
 
-Rode os comando para instalar a aplicação:
+Primeiramente troque as variaveis de ambiente dentro do arquivo .env sua conexão local.
+Crie o banco com o nome que está no arquivo .env (ultrahaus_test)
 
+Rode os comando para instalar a aplicação:
 
 $ composer install
 // Caso não tenha instalado https://getcomposer.org/download/
@@ -40,7 +42,7 @@ $ php artisan migrate
 // para gerar as tabelas no banco de dados.
 
 $ php artisan db:seed
-// caso queira que o projeto já tenha registros para testes
+// caso queira que o projeto já tenha registros para testes (gerados com o Faker)
 
 $ php artisan serve
 // Projeto rodando.
