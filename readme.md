@@ -25,3 +25,22 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+
+
+## Instalação
+
+Rode os comando para instalar a aplicação:
+
+
+$ composer install
+// Caso não tenha instalado https://getcomposer.org/download/
+
+$ php artisan migrate
+// para gerar as tabelas no banco de dados.
+
+$ php artisan db:seed
+// caso queira que o projeto já tenha registros para testes
+
+$ php artisan serve
+// Projeto rodando.
